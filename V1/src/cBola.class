@@ -1,0 +1,27 @@
+#pragma once
+#include <iostream>
+#include <graphics.h>
+
+class cBola {
+	private:
+		int x, y, r, dir;
+	public:
+		//CONSTRUCTOR//
+		cBola () {
+			this->x = 350;
+			this->y = 100;
+			this->r = 10;
+		}
+		//SETS//
+		void setX (int x) { this->x = x; }
+		void setY (int y) { this->y = y; }
+		void setR (int r) { this->r = r; }
+		void setDir (int dir) { this->dir = dir; }
+		//GETS//
+		int getX () { return x; }
+		int getY () { return y; }
+		int getR () { return r; }
+		int getDir () { return dir; }
+		//METODOS//
+		void pintarBola() { circle (this->x, this->y, this->r); }
+};
