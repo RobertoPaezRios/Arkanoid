@@ -1,0 +1,30 @@
+#include "../cBloque.class"
+
+using namespace std;
+#ifndef _cBloqueRojo_
+
+#define _cBloqueRojo_
+
+class cBloqueRojo : public cBloque {
+  public:
+    //CONSTRUCTOR//
+    cBloqueRojo (int x1, int y1, int x2, int y2) {
+      cBloque::setX1 (x1);
+      cBloque::setX2 (x2);
+      cBloque::setY1 (y1);
+      cBloque::setY2 (y2);
+      cBloque::setColor(4);
+      cBloque::setEstado (true);
+      cBloque::setResistencia (4);
+      cBloque::setToques (0);
+    }
+    //METODOS//
+    void pintar (int x1, int y1, int x2, int y2){
+      setcolor (cBloque::getColor());
+      rectangle (x1, y1, x2, y2);
+      setfillstyle (1, cBloque::getColor());
+      floodfill (x1 + 1, y1 + 1, cBloque::getColor());
+    }
+};
+
+#endif
