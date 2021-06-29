@@ -1,0 +1,45 @@
+#include <iostream>
+#include <graphics.h>
+#include <conio.h>
+
+using namespace std;
+
+#ifndef _cBloque_
+
+#define _cBloque_
+
+class cBloque {
+  private:
+    int x1, y1, x2, y2;
+    int color;
+    bool estado;
+    int resistencia;
+    int toques;
+  public:
+    //SETS//
+    void setX1 (int x1) { this->x1 = x1; }
+    void setY1 (int y1) { this->y1 = y1; }
+    void setX2 (int x2) { this->x2 = x2; }
+    void setY2 (int y2) { this->y2 = y2; }
+    void setColor (int color) { this->color = color; }
+    void setEstado (bool estado) { this->estado = estado; }
+    void setResistencia (int resistencia) { this->resistencia = resistencia; }
+    void setToques (int toques) { this->toques = toques; }
+    //GETS//
+    int getX1 () { return x1; }
+    int getY1 () { return y1; }
+    int getX2 () { return x2; }
+    int getY2 () { return y2; }
+    int getColor () { return color; }
+    bool setEstado () { return estado; }
+    int getResistencia () { return resistencia; }
+    int getToques () { return toques; }
+    //METODOS//
+    virtual void pintar (int x1, int y1, int x2, int y2) {
+      setColor (this->color);
+      rectangle (x1, y1, x2, y2);
+      setfillstyle (1, getColor());
+      floodfill (x1 + 1, y1 + 1, getColor());
+    }
+};
+#endif
