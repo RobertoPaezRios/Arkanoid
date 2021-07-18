@@ -1,0 +1,31 @@
+
+using namespace std;
+
+class cBloque {
+  private:
+    int largo, ancho;
+    int x, y;
+    int color;
+    bool estado;
+    int resistencia;
+    int toques;
+  public:
+    //SETS//
+    void setX (int x) { this->x = x; }
+    void setY (int y) { this->y = y; }
+    void setLargo (int largo) { this->largo = largo; }
+    void setAncho (int ancho) { this->ancho = ancho; }
+    void setColor (int color) { this->color = color; }
+    void setEstado (bool estado) { this->estado = estado; }
+    void setResistencia (int resistencia) { this->resistencia = resistencia; }
+    void setToques (int toques) { this->toques = toques; }
+    //GETS//
+    int getX () { return x; }
+    int getY () { return y; }
+    int getColor () { return color; }
+    bool setEstado () { return estado; }
+    int getResistencia () { return resistencia; }
+    int getToques () { return toques; }
+    int getLargo () { return largo; }
+    int getAncho () { return ancho; }
+};

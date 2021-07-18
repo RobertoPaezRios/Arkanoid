@@ -1,0 +1,121 @@
+Block Quantity (MAX 20) : 5
+Block 1 {
+  X1 : 0
+  X2 : 50
+  Y1 : 0
+  Y2 : 30
+}
+Block 2 {
+  X1 : 50
+  X2 : 100
+  Y1 : 0
+  Y2 : 30
+}
+Block 3 {
+  X1 : 100
+  X2 : 150
+  Y1 : 0
+  Y2 : 30
+}
+Block 4 {
+  X1 : 150
+  X2 : 200
+  Y1 : 0
+  Y2 : 30
+}
+Block 5 {
+  X1 : 200
+  X2 : 250
+  Y1 : 0
+  Y2 : 30
+}
+Block 6 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 7 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 8 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 9 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 10 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 11 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 12 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 13 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 14 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 15 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 16 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 17 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 18 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 19 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}
+Block 20 {
+  X1 :
+  X2 :
+  Y1 :
+  Y2 :
+}

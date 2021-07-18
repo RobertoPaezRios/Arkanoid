@@ -1,0 +1,30 @@
+#include <iostream>
+#include <graphics.h>
+#include <conio.h>
+#include "cBloqueRojo.class"
+#include "cBloque.class"
+
+using namespace std;
+
+class cBloqueAzul : public cBloque {
+  public:
+    //CONSTRUCTOR//
+      cBloqueAzul (int x1, int y1, int x2, int y2) {
+      setLargo (15);
+      setAncho (30);
+      setColor(9);
+      setEstado (true);
+      setResistencia (4);
+      setX1 (x1);
+      setY1 (y1);
+      setX2 (x2);
+      setY2 (y2);
+    }
+    //METODOS//
+    void pintarBloqueAzul (){
+      setcolor (getColor());
+      rectangle (getX1(), getY1(), getX2(), getY2());
+      setfillstyle (1, getColor());
+      floodfill (getX1() + 1, getY1() + 1, getColor());
+    }
+};
